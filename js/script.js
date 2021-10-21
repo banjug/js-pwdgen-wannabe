@@ -20,3 +20,8 @@ console.log(userPassword);
 // mostra il risultato all'utente
 
 document.getElementById('my_container').innerHTML = `La tua password &egrave; ${userPassword}`;
+
+
+// alternativa a creare la variabile userPassword
+
+document.getElementById('my_container').innerHTML = `La tua password &egrave; ${userName}${userSurname}${userColor}21`;
